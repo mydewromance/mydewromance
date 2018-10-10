@@ -62,36 +62,6 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-readme" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/10/10/readme/" class="article-date">
-  <time datetime="2018-10-10T06:44:23.207Z" itemprop="datePublished">2018-10-10</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>This code is for our paper “Hyperspectral image classification with deep feature fusion network”.<br>If you use this code, please kindly cite our paper:<br>Weiwei Song, Shutao Li, Leyuan Fang, and Ting Lu, “Hyperspectral image classification with deep<br>feature fusion network”, accepted by the IEEE TGRS.</p>
-<p>If you have any questions, please contact us.<br>Email:  <a href="mailto:weiwei_song@hnu.edu.cn" target="_blank" rel="noopener">weiwei_song@hnu.edu.cn</a>  <a href="mailto:fangleyuan@gmail.com" target="_blank" rel="noopener">fangleyuan@gmail.com</a></p>
-<p>This code is tested on the Ubuntu 16.04 system and caffe framework. Before running this code,<br>you should correctly install ubuntu system and caffe framework. For caffe installation, you can<br>refer to this guildeline “<a href="http://caffe.berkeleyvision.org/installation.html&quot;" target="_blank" rel="noopener">http://caffe.berkeleyvision.org/installation.html&quot;</a>. Here, we assume the<br>installation location of caffe is : ./Demo_DFFN/caffe-master</p>
-<p>After correctly installing ubuntu and caffe, you can run this code by the following procedures.<br>For the convenience, we take the Indian Pines image as a example. For the University of Pavia and<br>Salinas images, please make some changes referring to codes.<br>(1) Opening the matlab and changing the current path to the unzipped path,<br>    running the “generating_data.m” to generate the training and test samples, which are saved in<br>    the ./samples/indian_pines. Noteworthily, the format of samples is the hdf5 which is<br>    efficent for the caffe input. Here, we have generated these samples for you.<br>(2) Opening the terminal and changing the current path to the unzipped path, then running this script:<br>    “sh train_DFFN.sh &gt;&amp; info/train_indian_pines.log”<br>    This script executes the training of DFFN and generate the corresponding training log file.<br>(3) After training, running the following script to test network in the terminal same as (2):<br>    “sh test_DFFN.sh &gt;&amp; info/test_indian_pines.log”<br>    This script executes the test of DFFN and generate the corresponding test log file.<br>(4) running the “extract_prob.m” in matlab.<br>    This script is used to extract probability from the “test_indian_pines.log”.<br>(5) running the “calculating_result.m” to calculate the matrics (OA, AA, Kappa, CA) and draw classification map.</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/10/10/readme/" data-id="cjn2sh33r000050ffyv7uanou" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
     <article id="post-TEST" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2018/10/10/TEST/" class="article-date">
@@ -205,10 +175,6 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
-        
-          <li>
-            <a href="/2018/10/10/readme/">(no title)</a>
-          </li>
         
           <li>
             <a href="/2018/10/10/TEST/">TEST</a>
