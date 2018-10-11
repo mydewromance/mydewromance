@@ -1848,7 +1848,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9f736c;
+  background: #b8bb32;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2947,8 +2947,8 @@ body {
   margin-bottom: 60px;
   border-radius: 20px;
   padding: 25px;
-  -webkit-box-shadow: 0 0 10px rgba(202,203,203,0.9);
-  -moz-box-shadow: 0 0 10px rgba(202,203,204,0.9);
+  -webkit-box-shadow: 0 0 10px rgba(100,100,100,0.9);
+  -moz-box-shadow: 0 0 10px rgba(100,100,100,0.9);
 }
 #lv-container {
   border-radius: 20px;
