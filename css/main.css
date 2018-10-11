@@ -1848,7 +1848,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #cf96c4;
+  background: #ffb9f5;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2938,20 +2938,20 @@ body {
   background-color: rgba(0,0,0,0.5);
 }
 .content {
-  border-radius: 20px;
-  padding: 6px 6px 6px 6px;
+  border-radius: 10px;
+  padding: 0px 0px 0px 0px;
   background: rgba(255,255,255,0.8) none repeat scroll !important;
 }
 .post {
-  margin-top: 0px;
-  margin-bottom: 60px;
-  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
   padding: 8px;
   -webkit-box-shadow: 0 0 10px rgba(100,100,100,0.9);
   -moz-box-shadow: 0 0 10px rgba(100,100,100,0.9);
 }
 #lv-container {
-  border-radius: 20px;
-  padding: 30px 60px 30px 60px;
+  border-radius: 10px;
+  padding: 0px 0px 0px 0px;
   background: rgba(255,255,255,0.8) none repeat scroll !important;
 }
