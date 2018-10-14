@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[As the Dew]]></title>
+    <url>%2F2018%2F10%2F14%2Fas-the-dew%2F</url>
+    <content type="text"><![CDATA[花儿伴随着钢琴的旋律飞舞两人面对面却充满神秘 喜欢柯南开场的OP例行台词，配上柯南的声音，这绝对是童年最酷的事情了。还记得初中拿着零花钱去两元店购物的场景，看着玲琅满目的杂七杂八颇有一种布恩迪亚第一次看吉普赛人发明的新鲜感，那是买到的“宝贝”应该很多，印象最深的应该是买的两本柯南书籍，对的是书籍，不是漫画，里面的案件竟然是当作小说写出来的，然而并没有扫兴的感觉，毕竟2元钱一大本书，说什么也是赚了，更何况里面还有一张光盘呢。还记得我临摹过里面的两张插图呢（那大概是我绘画的巅峰吧，哈哈~）。 如果用马尔克斯的语言写的话，大概是多年以后，面对着麻木的生活，我会回想起我和好友王某某看光盘的那个遥远的下午。 如今光盘里的剧情早已记得不是很清楚了，开头的OP却决定了我未来多年的网名。当时并没有细看歌词，只觉得新一靠在路灯上，伴随着淡淡的悲伤，颇有一种归去，也无风雨也无晴的情感在里面，如今多年后回看歌词，却愈发觉得歌词悲伤。 生憎の雨だけど予定通り出かけましょう令人生厌地下着雨 但还是像往常一样出门吧せっかくの Dress up も あなたには見えてないし我精心打扮一番 你却视而不见週末の桜通りなら華やいだ白い道周末的樱花小道 真是美丽热闹足音響く美術館で懐かしんだSerusier走进美术馆 怀念塞吕西耶的画二度と会わない関係ならば 傷つけ合わずに若我们的关系只是若即若离就不会伤害彼此甘い想い出の日々と 思うことも出来るけど虽然还可以将过去的日子当做甜蜜的回忆時の流れには逆らえず 色褪せてゆく想いもあり难以阻挡的时光会冲淡回忆それでもさめざめと流れてく此时我不禁潸然泪下涙はちょっといいもんじゃない即使偶尔哭一次也没有关系吧あぁ…あぁ ひゅるる陽は墜ちて啊~啊~风声窸窣红日坠落まだ愛があるみたいじゃない仿佛爱情的火焰依旧燃烧大切な話だって3分で終わっちゃうし重要的话三分钟就能说完窓の外でも眺めて華やいでく物思い忍不住眺望窗外却是一片茫然風に乗ってカモメがゆくよ逆风飞翔的海鸥空の色(あお)ってなんてキレイ在晴空下如此美丽まるで果てのない世界 揺れて…揺れて憧れた仿佛这个世界没有尽头 我憧憬着这样的虚无人はこの空へ羽ばたける 翼などもてたとしても人们能够自由飞翔 如果拥有一双翅膀行く先を知る術が無いから苦寻无果未来无迹心もとなく彷徨うでしょう心中惘然彷徨无终あぁ…あぁ ひゅるる日は落ちて啊~啊~风声窸窣红日坠落家へ帰る道がある我想我是该回家了あぁあぁ 人間だもの あぁあぁ 露と墜ちる啊~啊~人们旅途中丢失的东西如同露水坠落時の流れには逆らえず 色褪せてゆく想いもあり难以阻挡的时光会冲淡回忆それでもさめざめと流れてく此时我不禁潸然泪下涙はちょっといいもんじゃない即使偶尔哭一次也没关系吧あぁ…あぁ ひゅるる陽は墜ちて啊~啊~风声窸窣红日坠落まだ愛があるみたいじゃない仿佛爱情的火焰依旧燃烧]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[Hexo Windows搭建过程记录]]></title>
     <url>%2F2018%2F10%2F12%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[准备 Node.js git cmder 安装hexo1$ npm install -g hexo 本地部署Hexo1234567$ cd d:/hexo$ npm install hexo-cli -g$ hexo init blog$ cd blog$ npm install$ hexo g # 或者hexo generate$ hexo s # 或者hexo server，可以在http://localhost:4000/ 查看 Hexo 常用命令123456789$ hexo new "postName" #新建文章$ hexo new page "pageName" #新建页面$ hexo n == hexo new$ hexo g == hexo generate$ hexo s == hexo server$ hexo d == hexo deploy$ hexo d -g #生成部署$ hexo s -g #生成预览$ hexo clean #清除缓存，若是网页正常情况下可以忽略这条命令 安装NexT主题下载NexT主题到themes文件夹下，去站点_config.yml文件中修改主题名称为next 安装部署工具1$npm install hexo-deployer-git --save 修改_config,yml deploy节点1234deploy: type: git repository: yours repo branch: master NexT美化背景图像及背景与评论半透明设置theme/next/source/css/_custom/custom.styl123456789101112131415161718192021222324252627// Custom styles.body &#123; background: url(/images/blogbg.jpg) no-repeat; background-position: center center; background-attachment: fixed; background-size: cover; background-color: rgba(0, 0, 0, 0.5);&#125;.content &#123; border-radius: 10px; padding: 0px 0px 0px 0px; background:rgba(255, 255, 255, 0.8) none repeat scroll !important; &#125;.post &#123; margin-top: 10px; margin-bottom: 20px; border-radius: 10px; padding: 8px; -webkit-box-shadow: 0 0 10px rgba(100, 100, 100, 0.9); -moz-box-shadow: 0 0 10px rgba(100, 100, 100, 0.9);&#125;#lv-container &#123; border-radius: 10px; padding: 0px 0px 0px 0px; background:rgba(255, 255, 255, 0.8) none repeat scroll !important; &#125; 代码块复制功能 参考资源 官方插件大全 官方提供第三方服务 官方提供主题设置 CSDN WordZzzz 简书 Hexo搭建博客教程 GitHub+Hexo 搭建个人网站详细教程 后续Hexo添加文章时自动打开编辑器 自动备份Hexo博客源文件 在多个仓库部署同一个 hexo 博客 使用 Git Hook 自动部署 Hexo 到个人 VPS]]></content>
+    <content type="text"><![CDATA[准备 Node.js Git Cmder 安装Hexo1$ npm install -g hexo 本地部署Hexo1234567$ cd d:/hexo$ npm install hexo-cli -g$ hexo init blog$ cd blog$ npm install$ hexo g # 或者hexo generate$ hexo s # 或者hexo server，可以在http://localhost:4000/ 查看 Hexo 常用命令123456789$ hexo new "postName" #新建文章$ hexo new page "pageName" #新建页面$ hexo n == hexo new$ hexo g == hexo generate$ hexo s == hexo server$ hexo d == hexo deploy$ hexo d -g #生成部署$ hexo s -g #生成预览$ hexo clean #清除缓存，若是网页正常情况下可以忽略这条命令 安装NexT主题下载NexT主题到themes文件夹下，去站点_config.yml文件中修改主题名称为next 安装部署工具1$npm install hexo-deployer-git --save 修改_config,yml deploy节点1234deploy: type: git repository: yours repo branch: master NexT美化背景图像及背景与评论半透明设置theme/next/source/css/_custom/custom.styl123456789101112131415161718192021222324252627// Custom styles.body &#123; background: url(/images/blogbg.jpg) no-repeat; background-position: center center; background-attachment: fixed; background-size: cover; background-color: rgba(0, 0, 0, 0.5);&#125;.content &#123; border-radius: 10px; padding: 0px 0px 0px 0px; background:rgba(255, 255, 255, 0.8) none repeat scroll !important; &#125;.post &#123; margin-top: 10px; margin-bottom: 20px; border-radius: 10px; padding: 8px; -webkit-box-shadow: 0 0 10px rgba(100, 100, 100, 0.9); -moz-box-shadow: 0 0 10px rgba(100, 100, 100, 0.9);&#125;#lv-container &#123; border-radius: 10px; padding: 0px 0px 0px 0px; background:rgba(255, 255, 255, 0.8) none repeat scroll !important; &#125; 代码块复制功能 参考资源 官方插件大全 官方提供第三方服务 官方提供主题设置 CSDN WordZzzz 简书 Hexo搭建博客教程 GitHub+Hexo 搭建个人网站详细教程 后续Hexo添加文章时自动打开编辑器 自动备份Hexo博客源文件 在多个仓库部署同一个 hexo 博客 使用 Git Hook 自动部署 Hexo 到个人 VPS]]></content>
       <categories>
         <category>Hexo</category>
       </categories>
       <tags>
         <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[TEST]]></title>
-    <url>%2F2018%2F10%2F10%2FTEST%2F</url>
-    <content type="text"><![CDATA[$\sin ^{ 2 }{ \theta +\cos ^{ 2 }{ \theta =1 } }$ $$\displaystyle \int_0^{T_*} | \omega(t) |_{L^\infty_x( {\bf R}^d \rightarrow \wedge^2 {\bf R}^d )}\ dt$$1$ hexo new "My New Post"]]></content>
-      <tags>
-        <tag>mathjax</tag>
       </tags>
   </entry>
 </search>
