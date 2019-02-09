@@ -380,8 +380,7 @@
 
       
         
-          
-            <p>此文件为我阅读<code>Pro Git</code>时所做的笔记</p>
+          <p>此文为我阅读<code>Pro Git</code>时所做的笔记</p>
 <hr>
 <h1 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h1><h2 id="一个文件，在-Git-内都只有三种状态：已提交（committed），已修改（modified）和已暂存（staged）。"><a href="#一个文件，在-Git-内都只有三种状态：已提交（committed），已修改（modified）和已暂存（staged）。" class="headerlink" title="一个文件，在 Git 内都只有三种状态：已提交（committed），已修改（modified）和已暂存（staged）。"></a>一个文件，在 Git 内都只有三种状态：已提交（committed），已修改（modified）和已暂存（staged）。</h2><ul>
 <li>已提交表示该文件已经被安全地保存在本地数据库中了</li>
@@ -389,21 +388,13 @@
 <li>已暂存表示把已修改的文件放在下次提交时要保存的清单中。</li>
 </ul>
 <p><img src="https://git-scm.com/book/en/v2/images/areas.png" alt="工作目录、暂存区域以及 Git仓库."></p>
-<h2 id="基本的-Git-工作流程如下："><a href="#基本的-Git-工作流程如下：" class="headerlink" title="基本的 Git 工作流程如下："></a>基本的 Git 工作流程如下：</h2><ol>
-<li>在工作目录中修改某些文件。</li>
-<li>对修改后的文件进行快照，然后保存到暂存区域。</li>
-<li>提交更新，将保存在暂存区域的文件快照永久转储到 Git 目录中。</li>
-</ol>
-<h2 id="Git-提供了一个叫做-git-config-的工具"><a href="#Git-提供了一个叫做-git-config-的工具" class="headerlink" title="Git 提供了一个叫做 git config 的工具"></a>Git 提供了一个叫做 git config 的工具</h2><ul>
-<li><code>/etc/gitconfig</code> 文件：系统中对所有用户都普遍适用的配置。若使用 <code>git config</code> 时用 <code>--system</code> 选项，读写的就是这个文件。</li>
-<li><code>~/.gitconfig</code> 文件：用户目录下的配置文件只适用于该用户。若使用 <code>git config</code> 时用 <code>--global</code> 选项，读写的就是这个文件。</li>
-<li>当前项目的 git 目录中的配置文件（也就是工作目录中的 <code>.git/config</code> 文件）：这里的配置仅仅针对当前项目有效。每一个级别的配置都会覆盖上层的相同配置，所以 <code>.git/config</code> 里的配置会覆盖 <code>/etc/gitconfig</code> 中的同名变量。</li>
-<li>在 Windows 系统上，Git 会找寻用户主目录下的 .gitconfig 文件。</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name &quot;John Doe&quot;</span><br><span class="line">$ git config --global user.email johndoe@example.com</span><br><span class="line">$ git config --list</span><br><span class="line">user.name=Scott Chacon</span><br><span class="line">user.email=schacon@gmail.com</span><br><span class="line">color.status=auto</span><br><span class="line">color.branch=auto</span><br><span class="line">color.interactive=auto</span><br><span class="line">color.diff=auto</span><br></pre></td></tr></table></figure>
-<h2 id="获取帮助"><a href="#获取帮助" class="headerlink" title="获取帮助"></a>获取帮助</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git help &lt;verb&gt;</span><br><span class="line">$ git &lt;verb&gt; --help</span><br><span class="line">$ man git-&lt;verb&gt;</span><br></pre></td></tr></table></figure>
-
-          
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2019/02/09/Pro-git-note-ch1/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>

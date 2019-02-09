@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mydewromance.cn/"/>
-  <updated>2019-02-09T14:38:56.649Z</updated>
+  <updated>2019-02-09T14:44:38.336Z</updated>
   <id>https://mydewromance.cn/</id>
   
   <author>
@@ -21,19 +21,18 @@
     <link href="https://mydewromance.cn/2019/02/09/Pro-git-note-ch1/"/>
     <id>https://mydewromance.cn/2019/02/09/Pro-git-note-ch1/</id>
     <published>2019-02-09T13:57:58.000Z</published>
-    <updated>2019-02-09T14:38:56.649Z</updated>
+    <updated>2019-02-09T14:44:38.336Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;此文件为我阅读&lt;code&gt;Pro Git&lt;/code&gt;时所做的笔记&lt;/p&gt;
+      &lt;p&gt;此文为我阅读&lt;code&gt;Pro Git&lt;/code&gt;时所做的笔记&lt;/p&gt;
 &lt;hr&gt;
-&lt;h1 id=&quot;第一章&quot;&gt;&lt;a href=&quot;#第一章&quot; class=&quot;headerlink&quot; title=&quot;第一章&quot;&gt;&lt;/a&gt;第一章&lt;/h1&gt;&lt;h2
-        
-      
+&lt;h1 id=&quot;第一章&quot;&gt;&lt;a href=&quot;#第一章&quot; class=&quot;headerlink&quot; title=&quot;第一章&quot;&gt;&lt;/a&gt;第一章&lt;/h1&gt;&lt;h2 id=&quot;一个文件，在-Git-内都只有三种状态：已提交（committed），已修改（modified）和已暂存（staged）。&quot;&gt;&lt;a href=&quot;#一个文件，在-Git-内都只有三种状态：已提交（committed），已修改（modified）和已暂存（staged）。&quot; class=&quot;headerlink&quot; title=&quot;一个文件，在 Git 内都只有三种状态：已提交（committed），已修改（modified）和已暂存（staged）。&quot;&gt;&lt;/a&gt;一个文件，在 Git 内都只有三种状态：已提交（committed），已修改（modified）和已暂存（staged）。&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;已提交表示该文件已经被安全地保存在本地数据库中了&lt;/li&gt;
+&lt;li&gt;已修改表示修改了某个文件，但还没有提交保存&lt;/li&gt;
+&lt;li&gt;已暂存表示把已修改的文件放在下次提交时要保存的清单中。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://git-scm.com/book/en/v2/images/areas.png&quot; alt=&quot;工作目录、暂存区域以及 Git仓库.&quot;&gt;&lt;/p&gt;
     
     </summary>
     
